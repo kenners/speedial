@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F0527B15062B95004125AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527A15062B95004125AF /* UIKit.framework */; };
+		30F0527D15062B95004125AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527C15062B95004125AF /* Foundation.framework */; };
+		30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527E15062B95004125AF /* CoreGraphics.framework */; };
+		30F0528515062B95004125AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F0528315062B95004125AF /* InfoPlist.strings */; };
+		30F0528715062B95004125AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0528615062B95004125AF /* main.m */; };
+		30F0528B15062B95004125AF /* nnuhspeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */; };
+		30F0528E15062B95004125AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F0528C15062B95004125AF /* MainStoryboard.storyboard */; };
+		30F0529115062B95004125AF /* nnuhspeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0529015062B95004125AF /* nnuhspeedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30F0527615062B95004125AF /* NNUH Speedial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNUH Speedial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F0527A15062B95004125AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30F0527C15062B95004125AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30F0527E15062B95004125AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30F0528215062B95004125AF /* NNUH Speedial-Info.plist */ = {isa = PBXFileReference; path = "NNUH Speedial-Info.plist"; sourceTree = "<group>"; };
+		30F0528415062B95004125AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F0528615062B95004125AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30F0528815062B95004125AF /* NNUH Speedial-Prefix.pch */ = {isa = PBXFileReference; path = "NNUH Speedial-Prefix.pch"; sourceTree = "<group>"; };
+		30F0528915062B95004125AF /* nnuhspeedAppDelegate.h */ = {isa = PBXFileReference; path = nnuhspeedAppDelegate.h; sourceTree = "<group>"; };
+		30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnuhspeedAppDelegate.m; sourceTree = "<group>"; };
+		30F0528D15062B95004125AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		30F0528F15062B95004125AF /* nnuhspeedViewController.h */ = {isa = PBXFileReference; path = nnuhspeedViewController.h; sourceTree = "<group>"; };
+		30F0529015062B95004125AF /* nnuhspeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnuhspeedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F0527315062B95004125AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F0527B15062B95004125AF /* UIKit.framework in Frameworks */,
+				30F0527D15062B95004125AF /* Foundation.framework in Frameworks */,
+				30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F0526B15062B94004125AF = {
+			isa = PBXGroup;
+			children = (
+				30F0528015062B95004125AF /* NNUH Speedial */,
+				30F0527915062B95004125AF /* Frameworks */,
+				30F0527715062B95004125AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F0527715062B95004125AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F0527615062B95004125AF /* NNUH Speedial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F0527915062B95004125AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F0527A15062B95004125AF /* UIKit.framework */,
+				30F0527C15062B95004125AF /* Foundation.framework */,
+				30F0527E15062B95004125AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F0528015062B95004125AF /* NNUH Speedial */ = {
+			isa = PBXGroup;
+			children = (
+				30F0528915062B95004125AF /* nnuhspeedAppDelegate.h */,
+				30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */,
+				30F0528C15062B95004125AF /* MainStoryboard.storyboard */,
+				30F0528F15062B95004125AF /* nnuhspeedViewController.h */,
+				30F0529015062B95004125AF /* nnuhspeedViewController.m */,
+				30F0528115062B95004125AF /* Supporting Files */,
+			);
+			path = "NNUH Speedial";
+			sourceTree = "<group>";
+		};
+		30F0528115062B95004125AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F0528215062B95004125AF /* NNUH Speedial-Info.plist */,
+				30F0528315062B95004125AF /* InfoPlist.strings */,
+				30F0528615062B95004125AF /* main.m */,
+				30F0528815062B95004125AF /* NNUH Speedial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F0527515062B95004125AF /* NNUH Speedial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F0529415062B95004125AF /* Build configuration list for PBXNativeTarget "NNUH Speedial" */;
+			buildPhases = (
+				30F0527215062B95004125AF /* Sources */,
+				30F0527315062B95004125AF /* Frameworks */,
+				30F0527415062B95004125AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NNUH Speedial";
+			productName = "NNUH Speedial";
+			productReference = 30F0527615062B95004125AF /* NNUH Speedial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F0526D15062B94004125AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Norfolk & Norwich University Hospital";
+			};
+			buildConfigurationList = 30F0527015062B94004125AF /* Build configuration list for PBXProject "NNUH Speedial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30F0526B15062B94004125AF;
+			productRefGroup = 30F0527715062B95004125AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F0527515062B95004125AF /* NNUH Speedial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F0527415062B95004125AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F0528515062B95004125AF /* InfoPlist.strings in Resources */,
+				30F0528E15062B95004125AF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F0527215062B95004125AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F0528715062B95004125AF /* main.m in Sources */,
+				30F0528B15062B95004125AF /* nnuhspeedAppDelegate.m in Sources */,
+				30F0529115062B95004125AF /* nnuhspeedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30F0528315062B95004125AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F0528415062B95004125AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30F0528C15062B95004125AF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F0528D15062B95004125AF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F0529215062B95004125AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30F0529315062B95004125AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F0529515062B95004125AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
+				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30F0529615062B95004125AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
+				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F0527015062B94004125AF /* Build configuration list for PBXProject "NNUH Speedial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F0529215062B95004125AF /* Debug */,
+				30F0529315062B95004125AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F0529415062B95004125AF /* Build configuration list for PBXNativeTarget "NNUH Speedial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F0529515062B95004125AF /* Debug */,
+				30F0529615062B95004125AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F0526D15062B94004125AF /* Project object */;
+}
