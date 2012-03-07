@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3045377615069E8300B235ED /* speedial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377515069E8300B235ED /* speedial-bg.png */; };
+		3045377915069FB800B235ED /* band.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377715069FB800B235ED /* band.png */; };
+		3045377A15069FB800B235ED /* bandext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377815069FB800B235ED /* bandext.png */; };
+		304537881506D3EF00B235ED /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377C1506D3EF00B235ED /* 0.png */; };
+		304537891506D3EF00B235ED /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377D1506D3EF00B235ED /* 1.png */; };
+		3045378A1506D3EF00B235ED /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377E1506D3EF00B235ED /* 2.png */; };
+		3045378B1506D3EF00B235ED /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377F1506D3EF00B235ED /* 3.png */; };
+		3045378C1506D3EF00B235ED /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537801506D3EF00B235ED /* 4.png */; };
+		3045378D1506D3EF00B235ED /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537811506D3EF00B235ED /* 5.png */; };
+		3045378E1506D3EF00B235ED /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537821506D3EF00B235ED /* 6.png */; };
+		3045378F1506D3EF00B235ED /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537831506D3EF00B235ED /* 7.png */; };
+		304537901506D3EF00B235ED /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537841506D3EF00B235ED /* 8.png */; };
+		304537911506D3EF00B235ED /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537851506D3EF00B235ED /* 9.png */; };
+		304537921506D3EF00B235ED /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537861506D3EF00B235ED /* call.png */; };
+		304537931506D3EF00B235ED /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537871506D3EF00B235ED /* del.png */; };
 		30F0527B15062B95004125AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527A15062B95004125AF /* UIKit.framework */; };
 		30F0527D15062B95004125AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527C15062B95004125AF /* Foundation.framework */; };
 		30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527E15062B95004125AF /* CoreGraphics.framework */; };
@@ -18,18 +33,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3045377515069E8300B235ED /* speedial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speedial-bg.png"; sourceTree = "<group>"; };
+		3045377715069FB800B235ED /* band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band.png; sourceTree = "<group>"; };
+		3045377815069FB800B235ED /* bandext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandext.png; sourceTree = "<group>"; };
+		3045377C1506D3EF00B235ED /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		3045377D1506D3EF00B235ED /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3045377E1506D3EF00B235ED /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3045377F1506D3EF00B235ED /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		304537801506D3EF00B235ED /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		304537811506D3EF00B235ED /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		304537821506D3EF00B235ED /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		304537831506D3EF00B235ED /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		304537841506D3EF00B235ED /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		304537851506D3EF00B235ED /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		304537861506D3EF00B235ED /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		304537871506D3EF00B235ED /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
 		30F0527615062B95004125AF /* NNUH Speedial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNUH Speedial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F0527A15062B95004125AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30F0527C15062B95004125AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		30F0527E15062B95004125AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30F0528215062B95004125AF /* NNUH Speedial-Info.plist */ = {isa = PBXFileReference; path = "NNUH Speedial-Info.plist"; sourceTree = "<group>"; };
+		30F0528215062B95004125AF /* NNUH Speedial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NNUH Speedial-Info.plist"; sourceTree = "<group>"; };
 		30F0528415062B95004125AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30F0528615062B95004125AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30F0528815062B95004125AF /* NNUH Speedial-Prefix.pch */ = {isa = PBXFileReference; path = "NNUH Speedial-Prefix.pch"; sourceTree = "<group>"; };
-		30F0528915062B95004125AF /* nnuhspeedAppDelegate.h */ = {isa = PBXFileReference; path = nnuhspeedAppDelegate.h; sourceTree = "<group>"; };
+		30F0528815062B95004125AF /* NNUH Speedial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNUH Speedial-Prefix.pch"; sourceTree = "<group>"; };
+		30F0528915062B95004125AF /* nnuhspeedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nnuhspeedAppDelegate.h; sourceTree = "<group>"; };
 		30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnuhspeedAppDelegate.m; sourceTree = "<group>"; };
 		30F0528D15062B95004125AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		30F0528F15062B95004125AF /* nnuhspeedViewController.h */ = {isa = PBXFileReference; path = nnuhspeedViewController.h; sourceTree = "<group>"; };
+		30F0528F15062B95004125AF /* nnuhspeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nnuhspeedViewController.h; sourceTree = "<group>"; };
 		30F0529015062B95004125AF /* nnuhspeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnuhspeedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +77,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3045377315069E2800B235ED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3045377B1506D3D500B235ED /* dialpad */,
+				3045377715069FB800B235ED /* band.png */,
+				3045377815069FB800B235ED /* bandext.png */,
+				3045377515069E8300B235ED /* speedial-bg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3045377B1506D3D500B235ED /* dialpad */ = {
+			isa = PBXGroup;
+			children = (
+				3045377C1506D3EF00B235ED /* 0.png */,
+				3045377D1506D3EF00B235ED /* 1.png */,
+				3045377E1506D3EF00B235ED /* 2.png */,
+				3045377F1506D3EF00B235ED /* 3.png */,
+				304537801506D3EF00B235ED /* 4.png */,
+				304537811506D3EF00B235ED /* 5.png */,
+				304537821506D3EF00B235ED /* 6.png */,
+				304537831506D3EF00B235ED /* 7.png */,
+				304537841506D3EF00B235ED /* 8.png */,
+				304537851506D3EF00B235ED /* 9.png */,
+				304537861506D3EF00B235ED /* call.png */,
+				304537871506D3EF00B235ED /* del.png */,
+			);
+			name = dialpad;
+			sourceTree = "<group>";
+		};
 		30F0526B15062B94004125AF = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +150,7 @@
 		30F0528115062B95004125AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3045377315069E2800B235ED /* Images */,
 				30F0528215062B95004125AF /* NNUH Speedial-Info.plist */,
 				30F0528315062B95004125AF /* InfoPlist.strings */,
 				30F0528615062B95004125AF /* main.m */,
@@ -151,6 +212,21 @@
 			files = (
 				30F0528515062B95004125AF /* InfoPlist.strings in Resources */,
 				30F0528E15062B95004125AF /* MainStoryboard.storyboard in Resources */,
+				3045377615069E8300B235ED /* speedial-bg.png in Resources */,
+				3045377915069FB800B235ED /* band.png in Resources */,
+				3045377A15069FB800B235ED /* bandext.png in Resources */,
+				304537881506D3EF00B235ED /* 0.png in Resources */,
+				304537891506D3EF00B235ED /* 1.png in Resources */,
+				3045378A1506D3EF00B235ED /* 2.png in Resources */,
+				3045378B1506D3EF00B235ED /* 3.png in Resources */,
+				3045378C1506D3EF00B235ED /* 4.png in Resources */,
+				3045378D1506D3EF00B235ED /* 5.png in Resources */,
+				3045378E1506D3EF00B235ED /* 6.png in Resources */,
+				3045378F1506D3EF00B235ED /* 7.png in Resources */,
+				304537901506D3EF00B235ED /* 8.png in Resources */,
+				304537911506D3EF00B235ED /* 9.png in Resources */,
+				304537921506D3EF00B235ED /* call.png in Resources */,
+				304537931506D3EF00B235ED /* del.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +351,7 @@
 				30F0529615062B95004125AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
