@@ -7,6 +7,7 @@
 //
 
 #import "nnuhspeedViewController.h"
+#import "TestFlight.h"
 
 @implementation nnuhspeedViewController
 
@@ -63,6 +64,10 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(IBAction)launchFeedback:(UIButton *)pressedButton {
+    [TestFlight openFeedbackView];
 }
 
 -(IBAction)numberButtonPressed:(UIButton *)pressedButton
@@ -139,6 +144,7 @@
             NSString *phoneLinkString = [NSString stringWithFormat:@"tel:%@", self.phoneNumberString];
             NSURL *phoneLinkURL = [NSURL URLWithString:phoneLinkString];
             [[UIApplication sharedApplication] openURL:phoneLinkURL];
+            [TestFlight passCheckpoint:@"Dialled extension"];
         } else {
             // Display some kind of error/alert as extension is not valid
         }

@@ -23,6 +23,7 @@
 -(IBAction)numberButtonPressed:(UIButton *)pressedButton;
 -(IBAction)deleteButtonPressed:(UIButton *)pressedButton;
 -(IBAction)dialButtonPressed:(UIButton *)pressedButton;
+-(IBAction)launchFeedback:(UIButton *)pressedButton;
 
 
 @end
