@@ -20,10 +20,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bandext.png" id="cR9-VN-7co">
-                                <rect key="frame" x="0.0" y="138" width="320" height="128"/>
+                                <rect key="frame" x="0.0" y="136" width="320" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vh0-Gz-oyQ">
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vh0-Gz-oyQ">
                                 <rect key="frame" x="105" y="407" width="110" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
@@ -38,8 +38,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="NtX-nI-6G9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d8k-Je-834">
-                                <rect key="frame" x="105" y="355" width="110" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d8k-Je-834">
+                                <rect key="frame" x="105" y="354" width="110" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="8" image="8.png">
@@ -53,8 +53,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="PMK-Uq-dF8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Qv-pS-IIX">
-                                <rect key="frame" x="105" y="302" width="110" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Qv-pS-IIX">
+                                <rect key="frame" x="105" y="301" width="110" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="5" image="5.png">
@@ -68,8 +68,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="FGK-R0-aHd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HJA-5r-Xpc">
-                                <rect key="frame" x="105" y="249" width="110" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HJA-5r-Xpc">
+                                <rect key="frame" x="105" y="248" width="110" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="2" image="2.png">
@@ -83,8 +83,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="pBM-Kg-CDR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fkc-Rr-HNU">
-                                <rect key="frame" x="214" y="355" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fkc-Rr-HNU">
+                                <rect key="frame" x="214" y="354" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="9" image="9.png">
@@ -98,8 +98,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="nN8-ML-Fwo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b1T-f4-of3">
-                                <rect key="frame" x="214" y="302" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b1T-f4-of3">
+                                <rect key="frame" x="214" y="301" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="6" image="6.png">
@@ -113,8 +113,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="K7S-OF-FbN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JKj-OV-KaI">
-                                <rect key="frame" x="214" y="249" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JKj-OV-KaI">
+                                <rect key="frame" x="214" y="248" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="3" image="3.png">
@@ -128,7 +128,7 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="6YQ-dk-tlB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P1S-js-tTG">
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P1S-js-tTG">
                                 <rect key="frame" x="214" y="407" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
@@ -143,8 +143,8 @@
                                     <action selector="deleteButtonPressed:" destination="2" eventType="touchUpInside" id="0xa-YM-OIu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vpo-mR-ss4">
-                                <rect key="frame" x="-1" y="407" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vpo-mR-ss4">
+                                <rect key="frame" x="0.0" y="407" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" image="call.png">
@@ -158,8 +158,8 @@
                                     <action selector="dialButtonPressed:" destination="2" eventType="touchUpInside" id="xpD-ej-zXD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gr6-5H-M15">
-                                <rect key="frame" x="0.0" y="355" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gr6-5H-M15">
+                                <rect key="frame" x="0.0" y="354" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="7" image="7.png">
@@ -173,8 +173,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="1Xv-iC-BuM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23A-nM-fsE">
-                                <rect key="frame" x="0.0" y="302" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23A-nM-fsE">
+                                <rect key="frame" x="0.0" y="301" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="4" image="4.png">
@@ -188,8 +188,8 @@
                                     <action selector="numberButtonPressed:" destination="2" eventType="touchUpInside" id="Jsy-C4-sS6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jDi-Sz-2ou">
-                                <rect key="frame" x="0.0" y="249" width="106" height="53"/>
+                            <button opaque="NO" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jDi-Sz-2ou">
+                                <rect key="frame" x="0.0" y="248" width="106" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="1" image="1.png">
@@ -204,28 +204,28 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="clip" minimumFontSize="10" id="zVz-Qb-EdS">
-                                <rect key="frame" x="24" y="175.5" width="60" height="53"/>
+                                <rect key="frame" x="24" y="174" width="60" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="clip" minimumFontSize="10" id="mUs-QR-PkA">
-                                <rect key="frame" x="95" y="175" width="60" height="53"/>
+                                <rect key="frame" x="98" y="173" width="60" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="clip" minimumFontSize="10" id="J3p-RM-gIj">
-                                <rect key="frame" x="166" y="175" width="60" height="53"/>
+                                <rect key="frame" x="169" y="173" width="60" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="clip" minimumFontSize="10" id="0tX-cl-ID6">
-                                <rect key="frame" x="237" y="175" width="60" height="53"/>
+                                <rect key="frame" x="240" y="173" width="60" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -261,7 +261,7 @@
     </scenes>
     <resources>
         <image name="0.png" width="218" height="107"/>
-        <image name="1.png" width="211" height="108"/>
+        <image name="1.png" width="211" height="109"/>
         <image name="2.png" width="218" height="109"/>
         <image name="3.png" width="211" height="109"/>
         <image name="4.png" width="211" height="108"/>
@@ -271,7 +271,7 @@
         <image name="8.png" width="218" height="108"/>
         <image name="9.png" width="211" height="108"/>
         <image name="bandext.png" width="640" height="194"/>
-        <image name="call.png" width="210" height="106"/>
+        <image name="call.png" width="211" height="107"/>
         <image name="del.png" width="211" height="107"/>
         <image name="speedial-bg.png" width="640" height="920"/>
     </resources>
