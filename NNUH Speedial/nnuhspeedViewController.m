@@ -108,7 +108,6 @@
         // Check that first digit is valid (i.e. 2,3,4,5, or 6)
         if ([self.phoneNumberLabel1.text isEqualToString:@"2"] || [self.phoneNumberLabel1.text isEqualToString:@"3"] || [self.phoneNumberLabel1.text isEqualToString:@"4"] || [self.phoneNumberLabel1.text isEqualToString:@"5"] || [self.phoneNumberLabel1.text isEqualToString:@"6"]) {
             // We have a valid extension so let's work out which direct dial we need to do.
-            NSLog(@"Valid extension.");
             // Begin NNUH specific stuff
             self.phoneNumberString = @"01603";
             if ([self.phoneNumberLabel1.text isEqualToString:@"2"]) {
