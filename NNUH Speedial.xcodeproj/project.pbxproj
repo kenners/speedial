@@ -22,6 +22,10 @@
 		304537911506D3EF00B235ED /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537851506D3EF00B235ED /* 9.png */; };
 		304537921506D3EF00B235ED /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537861506D3EF00B235ED /* call.png */; };
 		304537931506D3EF00B235ED /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537871506D3EF00B235ED /* del.png */; };
+		30E949811509736200BC5F52 /* NNUH-speedial-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */; };
+		30E94983150973D100BC5F52 /* NNUH-speedial-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */; };
+		30E949851509750600BC5F52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949841509750600BC5F52 /* Default@2x.png */; };
+		30E94988150975D900BC5F52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949861509758900BC5F52 /* Default.png */; };
 		30F0527B15062B95004125AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527A15062B95004125AF /* UIKit.framework */; };
 		30F0527D15062B95004125AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527C15062B95004125AF /* Foundation.framework */; };
 		30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527E15062B95004125AF /* CoreGraphics.framework */; };
@@ -48,6 +52,10 @@
 		304537851506D3EF00B235ED /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		304537861506D3EF00B235ED /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
 		304537871506D3EF00B235ED /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
+		30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-114.png"; sourceTree = "<group>"; };
+		30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-57.png"; sourceTree = "<group>"; };
+		30E949841509750600BC5F52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		30E949861509758900BC5F52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		30F0527615062B95004125AF /* NNUH Speedial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNUH Speedial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F0527A15062B95004125AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30F0527C15062B95004125AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +118,10 @@
 		30F0526B15062B94004125AF = {
 			isa = PBXGroup;
 			children = (
+				30E949861509758900BC5F52 /* Default.png */,
+				30E949841509750600BC5F52 /* Default@2x.png */,
+				30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */,
+				30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */,
 				30F0528015062B95004125AF /* NNUH Speedial */,
 				30F0527915062B95004125AF /* Frameworks */,
 				30F0527715062B95004125AF /* Products */,
@@ -185,7 +197,7 @@
 		30F0526D15062B94004125AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Norfolk & Norwich University Hospital";
 			};
 			buildConfigurationList = 30F0527015062B94004125AF /* Build configuration list for PBXProject "NNUH Speedial" */;
@@ -227,6 +239,10 @@
 				304537911506D3EF00B235ED /* 9.png in Resources */,
 				304537921506D3EF00B235ED /* call.png in Resources */,
 				304537931506D3EF00B235ED /* del.png in Resources */,
+				30E949811509736200BC5F52 /* NNUH-speedial-icon-114.png in Resources */,
+				30E94983150973D100BC5F52 /* NNUH-speedial-icon-57.png in Resources */,
+				30E949851509750600BC5F52 /* Default@2x.png in Resources */,
+				30E94988150975D900BC5F52 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +281,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		30E949891509799100BC5F52 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		30E9498A1509799100BC5F52 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
+				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
 		30F0529215062B95004125AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,7 +334,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -296,6 +345,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -303,8 +353,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,6 +391,7 @@
 			buildConfigurations = (
 				30F0529215062B95004125AF /* Debug */,
 				30F0529315062B95004125AF /* Release */,
+				30E949891509799100BC5F52 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -349,6 +401,7 @@
 			buildConfigurations = (
 				30F0529515062B95004125AF /* Debug */,
 				30F0529615062B95004125AF /* Release */,
+				30E9498A1509799100BC5F52 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
