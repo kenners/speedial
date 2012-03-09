@@ -7,6 +7,7 @@
 //
 
 #import "nnuhspeedAppDelegate.h"
+#import "TestFlight.h"
 
 @implementation nnuhspeedAppDelegate
 
@@ -14,6 +15,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [TestFlight takeOff:@"7525b79bd820104aa2c51b9db2ee7388_Njk3MzQyMDEyLTAzLTA4IDE5OjE0OjMzLjg5NjEzNw"];
     // Override point for customization after application launch.
     return YES;
 }
