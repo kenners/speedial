@@ -108,6 +108,15 @@
         // Check that first digit is valid (i.e. 2,3,4,5, or 6)
         if ([self.phoneNumberLabel1.text isEqualToString:@"2"] || [self.phoneNumberLabel1.text isEqualToString:@"3"] || [self.phoneNumberLabel1.text isEqualToString:@"4"] || [self.phoneNumberLabel1.text isEqualToString:@"5"] || [self.phoneNumberLabel1.text isEqualToString:@"6"]) {
             // We have a valid extension so let's work out which direct dial we need to do.
+            // But first lets stop users from dialling 2222(!)
+            if ([self.phoneNumberLabel1.text isEqualToString:@"2"] && [self.phoneNumberLabel2.text isEqualToString:@"2"] && [self.phoneNumberLabel3.text isEqualToString:@"2"] && [self.phoneNumberLabel4.text isEqualToString:@"2"]) {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot call 2222!" 
+                                                                message:@"Start CPR and delegate someone to call 2222 from a landline." 
+                                                               delegate:nil 
+                                                      cancelButtonTitle:@"OK"
+                                                      otherButtonTitles:nil];
+                [alert show];
+            }
             // Begin NNUH specific stuff
             self.phoneNumberString = @"01603";
             if ([self.phoneNumberLabel1.text isEqualToString:@"2"]) {
