@@ -146,13 +146,14 @@
                                                       cancelButtonTitle:@"OK"
                                                       otherButtonTitles:nil];
                 [alert show];
+                [TestFlight passCheckpoint:@"Attempted to dial 2222"];
             } else{
                 // Dial the calculated direct dial number!
                 NSString *phoneLinkString = [NSString stringWithFormat:@"tel:%@", self.phoneNumberString];
                 NSURL *phoneLinkURL = [NSURL URLWithString:phoneLinkString];
                 UIWebView *webview = [[UIWebView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame]; 
                 [webview loadRequest:[NSURLRequest requestWithURL:phoneLinkURL]]; 
-            webview.hidden = YES;
+                webview.hidden = YES;
                 [self.view addSubview:webview];
                 [TestFlight passCheckpoint:@"Dialled extension"];
             }
@@ -164,6 +165,7 @@
                                                   cancelButtonTitle:@"OK"
                                                   otherButtonTitles:nil];
             [invalidExtensionAlert show];
+            [TestFlight passCheckpoint:@"Invalid extension"];
         }
     } else {
         // Display something to indicate that not all digits of the extension are completed
@@ -173,6 +175,7 @@
                                                               cancelButtonTitle:@"OK"
                                                               otherButtonTitles:nil];
         [incompleteExtensionAlert show];
+        [TestFlight passCheckpoint:@"Incomplete extension"];
     }
 }
 
