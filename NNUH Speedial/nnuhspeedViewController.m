@@ -151,7 +151,10 @@
             // Dial the calculated direct dial number!
             NSString *phoneLinkString = [NSString stringWithFormat:@"tel:%@", self.phoneNumberString];
             NSURL *phoneLinkURL = [NSURL URLWithString:phoneLinkString];
-            [[UIApplication sharedApplication] openURL:phoneLinkURL];
+            UIWebView *webview = [[UIWebView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame]; 
+            [webview loadRequest:[NSURLRequest requestWithURL:phoneLinkURL]]; 
+            webview.hidden = YES;
+            [self.view addSubview:webview];
             [TestFlight passCheckpoint:@"Dialled extension"];
         } else {
             // Display some kind of error/alert as extension is not valid
