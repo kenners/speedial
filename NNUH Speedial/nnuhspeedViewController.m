@@ -155,9 +155,21 @@
             [TestFlight passCheckpoint:@"Dialled extension"];
         } else {
             // Display some kind of error/alert as extension is not valid
+            UIAlertView *invalidExtensionAlert = [[UIAlertView alloc] initWithTitle:@"Invalid extension" 
+                                                            message:@"The extension number you entered is not valid." 
+                                                           delegate:nil 
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [invalidExtensionAlert show];
         }
     } else {
         // Display something to indicate that not all digits of the extension are completed
+        UIAlertView *incompleteExtensionAlert = [[UIAlertView alloc] initWithTitle:@"Incomplete extension" 
+                                                                        message:@"You have not supplied all 4 digits of the extension." 
+                                                                       delegate:nil 
+                                                              cancelButtonTitle:@"OK"
+                                                              otherButtonTitles:nil];
+        [incompleteExtensionAlert show];
     }
 }
 
