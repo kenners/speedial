@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3026F249167CF21000BC516B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3026F248167CF21000BC516B /* Default-568h@2x.png */; };
 		3045377615069E8300B235ED /* speedial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377515069E8300B235ED /* speedial-bg.png */; };
 		3045377915069FB800B235ED /* band.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377715069FB800B235ED /* band.png */; };
 		3045377A15069FB800B235ED /* bandext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377815069FB800B235ED /* bandext.png */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3026F248167CF21000BC516B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3045377515069E8300B235ED /* speedial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speedial-bg.png"; sourceTree = "<group>"; };
 		3045377715069FB800B235ED /* band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band.png; sourceTree = "<group>"; };
 		3045377815069FB800B235ED /* bandext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandext.png; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		30F0526B15062B94004125AF = {
 			isa = PBXGroup;
 			children = (
+				3026F248167CF21000BC516B /* Default-568h@2x.png */,
 				3093B342150A71CF00B41E19 /* libz.dylib */,
 				3093B339150A70EB00B41E19 /* TestFlightSDK0.8.3 */,
 				30E949861509758900BC5F52 /* Default.png */,
@@ -270,6 +273,7 @@
 				30E94988150975D900BC5F52 /* Default.png in Resources */,
 				3093B33F150A70EB00B41E19 /* README.txt in Resources */,
 				3093B340150A70EB00B41E19 /* release_notes.txt in Resources */,
+				3026F249167CF21000BC516B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +358,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
 				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
@@ -418,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
 				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
@@ -433,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
 				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
