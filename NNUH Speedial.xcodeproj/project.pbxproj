@@ -202,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30F0529415062B95004125AF /* Build configuration list for PBXNativeTarget "NNUH Speedial" */;
 			buildPhases = (
+				3026F246167CEFD400BC516B /* Get version number from Git */,
 				30F0527215062B95004125AF /* Sources */,
 				30F0527315062B95004125AF /* Frameworks */,
 				30F0527415062B95004125AF /* Resources */,
@@ -273,6 +274,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3026F246167CEFD400BC516B /* Get version number from Git */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Get version number from Git";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Assumes that you tag versions with the version number (e.g., \"1.1\") and then the build number is\n# that plus the number of commits since the tag (e.g., \"1.1.17\")\n\necho \"Updating version/build number from git...\"\nplist=${PROJECT_DIR}/${INFOPLIST_FILE}\n\n# increment the build number (ie 115 to 116)\nversionnum=`git describe | awk '{split($0,a,\"-\"); print a[1]}'`\nbuildnum=`git describe | awk '{split($0,a,\"-\"); print a[1] \".\" a[2]}'`\n\nif [[ \"${versionnum}\" == \"\" ]]; then\necho \"No version number from git\"\nexit 2\nfi\n\nif [[ \"${buildnum}\" == \"\" ]]; then\necho \"No build number from git\"\nexit 2\nfi\n\n/usr/libexec/Plistbuddy -c \"Set CFBundleShortVersionString $versionnum\" \"${plist}\"\necho \"Updated version number to $versionnum\"\n\n/usr/libexec/Plistbuddy -c \"Set CFBundleVersion $buildnum\" \"${plist}\"\necho \"Updated build number to $buildnum\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30F0527215062B95004125AF /* Sources */ = {
