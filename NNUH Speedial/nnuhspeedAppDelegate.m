@@ -13,8 +13,16 @@
 
 @synthesize window = _window;
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    #define TESTING 1
+    #ifdef TESTING
+        // Using new iOS6-only identifierForVendor instead of uniqueIdentifier (deprecated)
+        NSUUID  *testflightUserId = [[UIDevice currentDevice] identifierForVendor];    
+        [TestFlight setDeviceIdentifier:[testflightUserId UUIDString]];
+    #endif
     [TestFlight takeOff:@"7525b79bd820104aa2c51b9db2ee7388_Njk3MzQyMDEyLTAzLTA4IDE5OjE0OjMzLjg5NjEzNw"];
     // Override point for customization after application launch.
     return YES;
