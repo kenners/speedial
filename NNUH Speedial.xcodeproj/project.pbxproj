@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3026F249167CF21000BC516B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3026F248167CF21000BC516B /* Default-568h@2x.png */; };
-		3026F24F167CF59600BC516B /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F24B167CF59600BC516B /* libTestFlight.a */; };
 		3026F250167CF59700BC516B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3026F24C167CF59600BC516B /* README.md */; };
 		3026F251167CF59700BC516B /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 3026F24D167CF59600BC516B /* release_notes.md */; };
+		3026F254167D090000BC516B /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F24B167CF59600BC516B /* libTestFlight.a */; };
+		3026F256167D091E00BC516B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F255167D091E00BC516B /* libz.dylib */; };
 		3045377615069E8300B235ED /* speedial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377515069E8300B235ED /* speedial-bg.png */; };
 		3045377915069FB800B235ED /* band.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377715069FB800B235ED /* band.png */; };
 		3045377A15069FB800B235ED /* bandext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377815069FB800B235ED /* bandext.png */; };
@@ -26,7 +27,6 @@
 		304537911506D3EF00B235ED /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537851506D3EF00B235ED /* 9.png */; };
 		304537921506D3EF00B235ED /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537861506D3EF00B235ED /* call.png */; };
 		304537931506D3EF00B235ED /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537871506D3EF00B235ED /* del.png */; };
-		3093B343150A71CF00B41E19 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3093B342150A71CF00B41E19 /* libz.dylib */; };
 		30E949811509736200BC5F52 /* NNUH-speedial-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */; };
 		30E94983150973D100BC5F52 /* NNUH-speedial-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */; };
 		30E949851509750600BC5F52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949841509750600BC5F52 /* Default@2x.png */; };
@@ -47,6 +47,7 @@
 		3026F24C167CF59600BC516B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3026F24D167CF59600BC516B /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
 		3026F24E167CF59600BC516B /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		3026F255167D091E00BC516B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3045377515069E8300B235ED /* speedial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speedial-bg.png"; sourceTree = "<group>"; };
 		3045377715069FB800B235ED /* band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band.png; sourceTree = "<group>"; };
 		3045377815069FB800B235ED /* bandext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandext.png; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		304537851506D3EF00B235ED /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		304537861506D3EF00B235ED /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
 		304537871506D3EF00B235ED /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
-		3093B342150A71CF00B41E19 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-114.png"; sourceTree = "<group>"; };
 		30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-57.png"; sourceTree = "<group>"; };
 		30E949841509750600BC5F52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -87,11 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3093B343150A71CF00B41E19 /* libz.dylib in Frameworks */,
+				3026F256167D091E00BC516B /* libz.dylib in Frameworks */,
+				3026F254167D090000BC516B /* libTestFlight.a in Frameworks */,
 				30F0527B15062B95004125AF /* UIKit.framework in Frameworks */,
 				30F0527D15062B95004125AF /* Foundation.framework in Frameworks */,
 				30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */,
-				3026F24F167CF59600BC516B /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +142,9 @@
 		30F0526B15062B94004125AF = {
 			isa = PBXGroup;
 			children = (
+				3026F255167D091E00BC516B /* libz.dylib */,
 				3026F24A167CF59600BC516B /* TestFlightSDK1.1 */,
 				3026F248167CF21000BC516B /* Default-568h@2x.png */,
-				3093B342150A71CF00B41E19 /* libz.dylib */,
 				30E949861509758900BC5F52 /* Default.png */,
 				30E949841509750600BC5F52 /* Default@2x.png */,
 				30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */,
@@ -332,18 +332,18 @@
 		30E949891509799100BC5F52 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -361,7 +361,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
 					"\"$(SRCROOT)/TestFlightSDK1.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,12 +371,12 @@
 		30F0529215062B95004125AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -389,7 +388,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
@@ -398,18 +397,18 @@
 		30F0529315062B95004125AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -427,7 +426,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
 					"\"$(SRCROOT)/TestFlightSDK1.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +442,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
 					"\"$(SRCROOT)/TestFlightSDK1.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
