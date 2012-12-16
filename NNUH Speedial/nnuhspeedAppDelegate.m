@@ -7,7 +7,9 @@
 //
 
 #import "nnuhspeedAppDelegate.h"
+#import <AudioToolbox/AudioToolbox.h>
 #import "TestFlight.h"
+#import "nnuhspeedViewController.h"
 
 @implementation nnuhspeedAppDelegate
 
@@ -17,17 +19,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    #define TESTING 1
-    #ifdef TESTING
-        // Using new iOS6-only identifierForVendor instead of uniqueIdentifier (deprecated)
-        //NSUUID  *testflightUserId = [[UIDevice currentDevice] identifierForVendor];
-        //[TestFlight setDeviceIdentifier:[testflightUserId UUIDString]];
-    
-        // Unfortunately the above doesn't work with Testflight, so we're back to the original
-        // way of doing things...
-        // FIXME: remove before shipping!
-        [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
-    #endif
     [TestFlight takeOff:@"7525b79bd820104aa2c51b9db2ee7388_Njk3MzQyMDEyLTAzLTA4IDE5OjE0OjMzLjg5NjEzNw"];
     // Override point for customization after application launch.
     return YES;

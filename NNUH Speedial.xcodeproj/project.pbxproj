@@ -12,6 +12,7 @@
 		3026F251167CF59700BC516B /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 3026F24D167CF59600BC516B /* release_notes.md */; };
 		3026F254167D090000BC516B /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F24B167CF59600BC516B /* libTestFlight.a */; };
 		3026F256167D091E00BC516B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F255167D091E00BC516B /* libz.dylib */; };
+		302BDD53167D5B81001277B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302BDD52167D5B81001277B2 /* AudioToolbox.framework */; };
 		3045377615069E8300B235ED /* speedial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377515069E8300B235ED /* speedial-bg.png */; };
 		3045377915069FB800B235ED /* band.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377715069FB800B235ED /* band.png */; };
 		3045377A15069FB800B235ED /* bandext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377815069FB800B235ED /* bandext.png */; };
@@ -48,6 +49,7 @@
 		3026F24D167CF59600BC516B /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
 		3026F24E167CF59600BC516B /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		3026F255167D091E00BC516B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		302BDD52167D5B81001277B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3045377515069E8300B235ED /* speedial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speedial-bg.png"; sourceTree = "<group>"; };
 		3045377715069FB800B235ED /* band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band.png; sourceTree = "<group>"; };
 		3045377815069FB800B235ED /* bandext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandext.png; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				30F0527B15062B95004125AF /* UIKit.framework in Frameworks */,
 				30F0527D15062B95004125AF /* Foundation.framework in Frameworks */,
 				30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */,
+				302BDD53167D5B81001277B2 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +145,7 @@
 		30F0526B15062B94004125AF = {
 			isa = PBXGroup;
 			children = (
+				302BDD52167D5B81001277B2 /* AudioToolbox.framework */,
 				3026F255167D091E00BC516B /* libz.dylib */,
 				3026F24A167CF59600BC516B /* TestFlightSDK1.1 */,
 				3026F248167CF21000BC516B /* Default-568h@2x.png */,
