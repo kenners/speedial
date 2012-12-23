@@ -7,193 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3026F249167CF21000BC516B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3026F248167CF21000BC516B /* Default-568h@2x.png */; };
-		3026F24F167CF59600BC516B /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3026F24B167CF59600BC516B /* libTestFlight.a */; };
-		3026F250167CF59700BC516B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3026F24C167CF59600BC516B /* README.md */; };
-		3026F251167CF59700BC516B /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 3026F24D167CF59600BC516B /* release_notes.md */; };
-		3045377615069E8300B235ED /* speedial-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377515069E8300B235ED /* speedial-bg.png */; };
-		3045377915069FB800B235ED /* band.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377715069FB800B235ED /* band.png */; };
-		3045377A15069FB800B235ED /* bandext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377815069FB800B235ED /* bandext.png */; };
-		304537881506D3EF00B235ED /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377C1506D3EF00B235ED /* 0.png */; };
-		304537891506D3EF00B235ED /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377D1506D3EF00B235ED /* 1.png */; };
-		3045378A1506D3EF00B235ED /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377E1506D3EF00B235ED /* 2.png */; };
-		3045378B1506D3EF00B235ED /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3045377F1506D3EF00B235ED /* 3.png */; };
-		3045378C1506D3EF00B235ED /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537801506D3EF00B235ED /* 4.png */; };
-		3045378D1506D3EF00B235ED /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537811506D3EF00B235ED /* 5.png */; };
-		3045378E1506D3EF00B235ED /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537821506D3EF00B235ED /* 6.png */; };
-		3045378F1506D3EF00B235ED /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537831506D3EF00B235ED /* 7.png */; };
-		304537901506D3EF00B235ED /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537841506D3EF00B235ED /* 8.png */; };
-		304537911506D3EF00B235ED /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537851506D3EF00B235ED /* 9.png */; };
-		304537921506D3EF00B235ED /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537861506D3EF00B235ED /* call.png */; };
-		304537931506D3EF00B235ED /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 304537871506D3EF00B235ED /* del.png */; };
-		3093B343150A71CF00B41E19 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3093B342150A71CF00B41E19 /* libz.dylib */; };
-		30E949811509736200BC5F52 /* NNUH-speedial-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */; };
-		30E94983150973D100BC5F52 /* NNUH-speedial-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */; };
-		30E949851509750600BC5F52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949841509750600BC5F52 /* Default@2x.png */; };
-		30E94988150975D900BC5F52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E949861509758900BC5F52 /* Default.png */; };
-		30F0527B15062B95004125AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527A15062B95004125AF /* UIKit.framework */; };
-		30F0527D15062B95004125AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527C15062B95004125AF /* Foundation.framework */; };
-		30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F0527E15062B95004125AF /* CoreGraphics.framework */; };
-		30F0528515062B95004125AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F0528315062B95004125AF /* InfoPlist.strings */; };
-		30F0528715062B95004125AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0528615062B95004125AF /* main.m */; };
-		30F0528B15062B95004125AF /* nnuhspeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */; };
-		30F0528E15062B95004125AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F0528C15062B95004125AF /* MainStoryboard.storyboard */; };
-		30F0529115062B95004125AF /* nnuhspeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0529015062B95004125AF /* nnuhspeedViewController.m */; };
+		3017515E1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3017515D1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png */; };
+		301751601686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3017515F1686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png */; };
+		306E0A7916867D870026C75B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306E0A7816867D870026C75B /* UIKit.framework */; };
+		306E0A7B16867D870026C75B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306E0A7A16867D870026C75B /* Foundation.framework */; };
+		306E0A7D16867D870026C75B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306E0A7C16867D870026C75B /* CoreGraphics.framework */; };
+		306E0A8316867D870026C75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8116867D870026C75B /* InfoPlist.strings */; };
+		306E0A8516867D870026C75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E0A8416867D870026C75B /* main.m */; };
+		306E0A8916867D870026C75B /* NnSpeedialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E0A8816867D870026C75B /* NnSpeedialAppDelegate.m */; };
+		306E0A8B16867D870026C75B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8A16867D870026C75B /* Default.png */; };
+		306E0A8D16867D870026C75B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8C16867D870026C75B /* Default@2x.png */; };
+		306E0A8F16867D870026C75B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8E16867D870026C75B /* Default-568h@2x.png */; };
+		306E0A9216867D870026C75B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A9016867D870026C75B /* MainStoryboard.storyboard */; };
+		306E0A9516867D870026C75B /* NnSpeedialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E0A9416867D870026C75B /* NnSpeedialViewController.m */; };
+		306E0AA116867E5E0026C75B /* PINBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A9F16867E5E0026C75B /* PINBox.png */; };
+		306E0AA216867E5E0026C75B /* PINBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0AA016867E5E0026C75B /* PINBox@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3026F248167CF21000BC516B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3026F24B167CF59600BC516B /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		3026F24C167CF59600BC516B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		3026F24D167CF59600BC516B /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		3026F24E167CF59600BC516B /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		3045377515069E8300B235ED /* speedial-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speedial-bg.png"; sourceTree = "<group>"; };
-		3045377715069FB800B235ED /* band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band.png; sourceTree = "<group>"; };
-		3045377815069FB800B235ED /* bandext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandext.png; sourceTree = "<group>"; };
-		3045377C1506D3EF00B235ED /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
-		3045377D1506D3EF00B235ED /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		3045377E1506D3EF00B235ED /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		3045377F1506D3EF00B235ED /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		304537801506D3EF00B235ED /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		304537811506D3EF00B235ED /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		304537821506D3EF00B235ED /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
-		304537831506D3EF00B235ED /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
-		304537841506D3EF00B235ED /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
-		304537851506D3EF00B235ED /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
-		304537861506D3EF00B235ED /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
-		304537871506D3EF00B235ED /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
-		3093B342150A71CF00B41E19 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-114.png"; sourceTree = "<group>"; };
-		30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-57.png"; sourceTree = "<group>"; };
-		30E949841509750600BC5F52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		30E949861509758900BC5F52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		30F0527615062B95004125AF /* NNUH Speedial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNUH Speedial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F0527A15062B95004125AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		30F0527C15062B95004125AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		30F0527E15062B95004125AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30F0528215062B95004125AF /* NNUH Speedial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NNUH Speedial-Info.plist"; sourceTree = "<group>"; };
-		30F0528415062B95004125AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		30F0528615062B95004125AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30F0528815062B95004125AF /* NNUH Speedial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNUH Speedial-Prefix.pch"; sourceTree = "<group>"; };
-		30F0528915062B95004125AF /* nnuhspeedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nnuhspeedAppDelegate.h; sourceTree = "<group>"; };
-		30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnuhspeedAppDelegate.m; sourceTree = "<group>"; };
-		30F0528D15062B95004125AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		30F0528F15062B95004125AF /* nnuhspeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nnuhspeedViewController.h; sourceTree = "<group>"; };
-		30F0529015062B95004125AF /* nnuhspeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nnuhspeedViewController.m; sourceTree = "<group>"; };
+		3017515D1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-114.png"; sourceTree = "<group>"; };
+		3017515F1686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-57.png"; sourceTree = "<group>"; };
+		306E0A7416867D870026C75B /* NNUH Speedial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNUH Speedial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306E0A7816867D870026C75B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		306E0A7A16867D870026C75B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		306E0A7C16867D870026C75B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		306E0A8016867D870026C75B /* NNUH Speedial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NNUH Speedial-Info.plist"; sourceTree = "<group>"; };
+		306E0A8216867D870026C75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		306E0A8416867D870026C75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306E0A8616867D870026C75B /* NNUH Speedial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNUH Speedial-Prefix.pch"; sourceTree = "<group>"; };
+		306E0A8716867D870026C75B /* NnSpeedialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NnSpeedialAppDelegate.h; sourceTree = "<group>"; };
+		306E0A8816867D870026C75B /* NnSpeedialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NnSpeedialAppDelegate.m; sourceTree = "<group>"; };
+		306E0A8A16867D870026C75B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		306E0A8C16867D870026C75B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		306E0A8E16867D870026C75B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		306E0A9116867D870026C75B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		306E0A9316867D870026C75B /* NnSpeedialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NnSpeedialViewController.h; sourceTree = "<group>"; };
+		306E0A9416867D870026C75B /* NnSpeedialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NnSpeedialViewController.m; sourceTree = "<group>"; };
+		306E0A9F16867E5E0026C75B /* PINBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PINBox.png; sourceTree = "<group>"; };
+		306E0AA016867E5E0026C75B /* PINBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PINBox@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30F0527315062B95004125AF /* Frameworks */ = {
+		306E0A7116867D870026C75B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3093B343150A71CF00B41E19 /* libz.dylib in Frameworks */,
-				30F0527B15062B95004125AF /* UIKit.framework in Frameworks */,
-				30F0527D15062B95004125AF /* Foundation.framework in Frameworks */,
-				30F0527F15062B95004125AF /* CoreGraphics.framework in Frameworks */,
-				3026F24F167CF59600BC516B /* libTestFlight.a in Frameworks */,
+				306E0A7916867D870026C75B /* UIKit.framework in Frameworks */,
+				306E0A7B16867D870026C75B /* Foundation.framework in Frameworks */,
+				306E0A7D16867D870026C75B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3026F24A167CF59600BC516B /* TestFlightSDK1.1 */ = {
+		306E0A6916867D870026C75B = {
 			isa = PBXGroup;
 			children = (
-				3026F24B167CF59600BC516B /* libTestFlight.a */,
-				3026F24C167CF59600BC516B /* README.md */,
-				3026F24D167CF59600BC516B /* release_notes.md */,
-				3026F24E167CF59600BC516B /* TestFlight.h */,
-			);
-			path = TestFlightSDK1.1;
-			sourceTree = "<group>";
-		};
-		3045377315069E2800B235ED /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				3045377B1506D3D500B235ED /* dialpad */,
-				3045377715069FB800B235ED /* band.png */,
-				3045377815069FB800B235ED /* bandext.png */,
-				3045377515069E8300B235ED /* speedial-bg.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		3045377B1506D3D500B235ED /* dialpad */ = {
-			isa = PBXGroup;
-			children = (
-				3045377C1506D3EF00B235ED /* 0.png */,
-				3045377D1506D3EF00B235ED /* 1.png */,
-				3045377E1506D3EF00B235ED /* 2.png */,
-				3045377F1506D3EF00B235ED /* 3.png */,
-				304537801506D3EF00B235ED /* 4.png */,
-				304537811506D3EF00B235ED /* 5.png */,
-				304537821506D3EF00B235ED /* 6.png */,
-				304537831506D3EF00B235ED /* 7.png */,
-				304537841506D3EF00B235ED /* 8.png */,
-				304537851506D3EF00B235ED /* 9.png */,
-				304537861506D3EF00B235ED /* call.png */,
-				304537871506D3EF00B235ED /* del.png */,
-			);
-			name = dialpad;
-			sourceTree = "<group>";
-		};
-		30F0526B15062B94004125AF = {
-			isa = PBXGroup;
-			children = (
-				3026F24A167CF59600BC516B /* TestFlightSDK1.1 */,
-				3026F248167CF21000BC516B /* Default-568h@2x.png */,
-				3093B342150A71CF00B41E19 /* libz.dylib */,
-				30E949861509758900BC5F52 /* Default.png */,
-				30E949841509750600BC5F52 /* Default@2x.png */,
-				30E94982150973D100BC5F52 /* NNUH-speedial-icon-57.png */,
-				30E949801509736200BC5F52 /* NNUH-speedial-icon-114.png */,
-				30F0528015062B95004125AF /* NNUH Speedial */,
-				30F0527915062B95004125AF /* Frameworks */,
-				30F0527715062B95004125AF /* Products */,
+				3017515F1686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png */,
+				3017515D1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png */,
+				306E0A7E16867D870026C75B /* NNUH Speedial */,
+				306E0A7716867D870026C75B /* Frameworks */,
+				306E0A7516867D870026C75B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30F0527715062B95004125AF /* Products */ = {
+		306E0A7516867D870026C75B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30F0527615062B95004125AF /* NNUH Speedial.app */,
+				306E0A7416867D870026C75B /* NNUH Speedial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30F0527915062B95004125AF /* Frameworks */ = {
+		306E0A7716867D870026C75B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30F0527A15062B95004125AF /* UIKit.framework */,
-				30F0527C15062B95004125AF /* Foundation.framework */,
-				30F0527E15062B95004125AF /* CoreGraphics.framework */,
+				306E0A7816867D870026C75B /* UIKit.framework */,
+				306E0A7A16867D870026C75B /* Foundation.framework */,
+				306E0A7C16867D870026C75B /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30F0528015062B95004125AF /* NNUH Speedial */ = {
+		306E0A7E16867D870026C75B /* NNUH Speedial */ = {
 			isa = PBXGroup;
 			children = (
-				30F0528915062B95004125AF /* nnuhspeedAppDelegate.h */,
-				30F0528A15062B95004125AF /* nnuhspeedAppDelegate.m */,
-				30F0528C15062B95004125AF /* MainStoryboard.storyboard */,
-				30F0528F15062B95004125AF /* nnuhspeedViewController.h */,
-				30F0529015062B95004125AF /* nnuhspeedViewController.m */,
-				30F0528115062B95004125AF /* Supporting Files */,
+				306E0A8716867D870026C75B /* NnSpeedialAppDelegate.h */,
+				306E0A8816867D870026C75B /* NnSpeedialAppDelegate.m */,
+				306E0A9016867D870026C75B /* MainStoryboard.storyboard */,
+				306E0A9F16867E5E0026C75B /* PINBox.png */,
+				306E0AA016867E5E0026C75B /* PINBox@2x.png */,
+				306E0A9316867D870026C75B /* NnSpeedialViewController.h */,
+				306E0A9416867D870026C75B /* NnSpeedialViewController.m */,
+				306E0A7F16867D870026C75B /* Supporting Files */,
 			);
 			path = "NNUH Speedial";
 			sourceTree = "<group>";
 		};
-		30F0528115062B95004125AF /* Supporting Files */ = {
+		306E0A7F16867D870026C75B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3045377315069E2800B235ED /* Images */,
-				30F0528215062B95004125AF /* NNUH Speedial-Info.plist */,
-				30F0528315062B95004125AF /* InfoPlist.strings */,
-				30F0528615062B95004125AF /* main.m */,
-				30F0528815062B95004125AF /* NNUH Speedial-Prefix.pch */,
+				306E0A8016867D870026C75B /* NNUH Speedial-Info.plist */,
+				306E0A8116867D870026C75B /* InfoPlist.strings */,
+				306E0A8416867D870026C75B /* main.m */,
+				306E0A8616867D870026C75B /* NNUH Speedial-Prefix.pch */,
+				306E0A8A16867D870026C75B /* Default.png */,
+				306E0A8C16867D870026C75B /* Default@2x.png */,
+				306E0A8E16867D870026C75B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,14 +122,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30F0527515062B95004125AF /* NNUH Speedial */ = {
+		306E0A7316867D870026C75B /* NNUH Speedial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30F0529415062B95004125AF /* Build configuration list for PBXNativeTarget "NNUH Speedial" */;
+			buildConfigurationList = 306E0A9816867D870026C75B /* Build configuration list for PBXNativeTarget "NNUH Speedial" */;
 			buildPhases = (
-				3026F246167CEFD400BC516B /* Get version number from Git */,
-				30F0527215062B95004125AF /* Sources */,
-				30F0527315062B95004125AF /* Frameworks */,
-				30F0527415062B95004125AF /* Resources */,
+				301751581686CCA300AEC8B9 /* Get version number from Git */,
+				306E0A7016867D870026C75B /* Sources */,
+				306E0A7116867D870026C75B /* Frameworks */,
+				306E0A7216867D870026C75B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -216,71 +137,57 @@
 			);
 			name = "NNUH Speedial";
 			productName = "NNUH Speedial";
-			productReference = 30F0527615062B95004125AF /* NNUH Speedial.app */;
+			productReference = 306E0A7416867D870026C75B /* NNUH Speedial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30F0526D15062B94004125AF /* Project object */ = {
+		306E0A6B16867D870026C75B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Norfolk & Norwich University Hospital";
+				CLASSPREFIX = NnSpeedial;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Kenrick Turner";
 			};
-			buildConfigurationList = 30F0527015062B94004125AF /* Build configuration list for PBXProject "NNUH Speedial" */;
+			buildConfigurationList = 306E0A6E16867D870026C75B /* Build configuration list for PBXProject "NNUH Speedial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 30F0526B15062B94004125AF;
-			productRefGroup = 30F0527715062B95004125AF /* Products */;
+			mainGroup = 306E0A6916867D870026C75B;
+			productRefGroup = 306E0A7516867D870026C75B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30F0527515062B95004125AF /* NNUH Speedial */,
+				306E0A7316867D870026C75B /* NNUH Speedial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30F0527415062B95004125AF /* Resources */ = {
+		306E0A7216867D870026C75B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F0528515062B95004125AF /* InfoPlist.strings in Resources */,
-				30F0528E15062B95004125AF /* MainStoryboard.storyboard in Resources */,
-				3045377615069E8300B235ED /* speedial-bg.png in Resources */,
-				3045377915069FB800B235ED /* band.png in Resources */,
-				3045377A15069FB800B235ED /* bandext.png in Resources */,
-				304537881506D3EF00B235ED /* 0.png in Resources */,
-				304537891506D3EF00B235ED /* 1.png in Resources */,
-				3045378A1506D3EF00B235ED /* 2.png in Resources */,
-				3045378B1506D3EF00B235ED /* 3.png in Resources */,
-				3045378C1506D3EF00B235ED /* 4.png in Resources */,
-				3045378D1506D3EF00B235ED /* 5.png in Resources */,
-				3045378E1506D3EF00B235ED /* 6.png in Resources */,
-				3045378F1506D3EF00B235ED /* 7.png in Resources */,
-				304537901506D3EF00B235ED /* 8.png in Resources */,
-				304537911506D3EF00B235ED /* 9.png in Resources */,
-				304537921506D3EF00B235ED /* call.png in Resources */,
-				304537931506D3EF00B235ED /* del.png in Resources */,
-				30E949811509736200BC5F52 /* NNUH-speedial-icon-114.png in Resources */,
-				30E94983150973D100BC5F52 /* NNUH-speedial-icon-57.png in Resources */,
-				30E949851509750600BC5F52 /* Default@2x.png in Resources */,
-				30E94988150975D900BC5F52 /* Default.png in Resources */,
-				3026F249167CF21000BC516B /* Default-568h@2x.png in Resources */,
-				3026F250167CF59700BC516B /* README.md in Resources */,
-				3026F251167CF59700BC516B /* release_notes.md in Resources */,
+				306E0A8316867D870026C75B /* InfoPlist.strings in Resources */,
+				306E0A8B16867D870026C75B /* Default.png in Resources */,
+				306E0A8D16867D870026C75B /* Default@2x.png in Resources */,
+				306E0A8F16867D870026C75B /* Default-568h@2x.png in Resources */,
+				306E0A9216867D870026C75B /* MainStoryboard.storyboard in Resources */,
+				306E0AA116867E5E0026C75B /* PINBox.png in Resources */,
+				306E0AA216867E5E0026C75B /* PINBox@2x.png in Resources */,
+				3017515E1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png in Resources */,
+				301751601686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3026F246167CEFD400BC516B /* Get version number from Git */ = {
+		301751581686CCA300AEC8B9 /* Get version number from Git */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,31 +204,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30F0527215062B95004125AF /* Sources */ = {
+		306E0A7016867D870026C75B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F0528715062B95004125AF /* main.m in Sources */,
-				30F0528B15062B95004125AF /* nnuhspeedAppDelegate.m in Sources */,
-				30F0529115062B95004125AF /* nnuhspeedViewController.m in Sources */,
+				306E0A8516867D870026C75B /* main.m in Sources */,
+				306E0A8916867D870026C75B /* NnSpeedialAppDelegate.m in Sources */,
+				306E0A9516867D870026C75B /* NnSpeedialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30F0528315062B95004125AF /* InfoPlist.strings */ = {
+		306E0A8116867D870026C75B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30F0528415062B95004125AF /* en */,
+				306E0A8216867D870026C75B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		30F0528C15062B95004125AF /* MainStoryboard.storyboard */ = {
+		306E0A9016867D870026C75B /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30F0528D15062B95004125AF /* en */,
+				306E0A9116867D870026C75B /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -329,52 +236,15 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		30E949891509799100BC5F52 /* Ad Hoc */ = {
+		306E0A9616867D870026C75B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = "Ad Hoc";
-		};
-		30E9498A1509799100BC5F52 /* Ad Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
-				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
-					"\"$(SRCROOT)/TestFlightSDK1.1\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = "Ad Hoc";
-		};
-		30F0529215062B95004125AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -385,68 +255,54 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
-		30F0529315062B95004125AF /* Release */ = {
+		306E0A9716867D870026C75B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				STRIP_INSTALLED_PRODUCT = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		30F0529515062B95004125AF /* Debug */ = {
+		306E0A9916867D870026C75B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
 				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
-					"\"$(SRCROOT)/TestFlightSDK1.1\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		30F0529615062B95004125AF /* Release */ = {
+		306E0A9A16867D870026C75B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NNUH Speedial/NNUH Speedial-Prefix.pch";
 				INFOPLIST_FILE = "NNUH Speedial/NNUH Speedial-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/TestFlightSDK0.8.3\"",
-					"\"$(SRCROOT)/TestFlightSDK1.1\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,27 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30F0527015062B94004125AF /* Build configuration list for PBXProject "NNUH Speedial" */ = {
+		306E0A6E16867D870026C75B /* Build configuration list for PBXProject "NNUH Speedial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30F0529215062B95004125AF /* Debug */,
-				30F0529315062B95004125AF /* Release */,
-				30E949891509799100BC5F52 /* Ad Hoc */,
+				306E0A9616867D870026C75B /* Debug */,
+				306E0A9716867D870026C75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30F0529415062B95004125AF /* Build configuration list for PBXNativeTarget "NNUH Speedial" */ = {
+		306E0A9816867D870026C75B /* Build configuration list for PBXNativeTarget "NNUH Speedial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30F0529515062B95004125AF /* Debug */,
-				30F0529615062B95004125AF /* Release */,
-				30E9498A1509799100BC5F52 /* Ad Hoc */,
+				306E0A9916867D870026C75B /* Debug */,
+				306E0A9A16867D870026C75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30F0526D15062B94004125AF /* Project object */;
+	rootObject = 306E0A6B16867D870026C75B /* Project object */;
 }
