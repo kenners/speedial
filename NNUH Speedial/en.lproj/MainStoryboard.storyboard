@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
+        <development version="4500" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
@@ -60,31 +61,39 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lqY-Nc-nww">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" type="user" id="Wx3-et-zi6"/>
+                                    <constraint firstAttribute="width" constant="178" id="ihB-K8-Itv"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.44705882352941173" blue="0.77647058823529413" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="d0i-Th-Utl" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="26" id="1SU-Ba-MfC"/>
+                            <constraint firstItem="d0i-Th-Utl" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="26" id="5ER-n9-n53"/>
                             <constraint firstItem="h3P-DO-rDk" firstAttribute="leading" secondItem="67y-nq-fZn" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="709-xE-quK"/>
-                            <constraint firstItem="Hv9-On-U2u" firstAttribute="centerX" secondItem="67y-nq-fZn" secondAttribute="centerX" type="default" id="9Ru-qq-dhV"/>
-                            <constraint firstItem="hzu-Y1-nJw" firstAttribute="top" secondItem="h3P-DO-rDk" secondAttribute="top" type="default" id="AFE-cz-FuL"/>
-                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="MDN-kv-wmK"/>
+                            <constraint firstItem="d0i-Th-Utl" firstAttribute="centerY" secondItem="h3P-DO-rDk" secondAttribute="centerY" type="user" id="8sF-yr-rZp"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="centerY" secondItem="tW7-kq-B2c" secondAttribute="centerY" type="user" id="B89-xe-8I6"/>
+                            <constraint firstItem="tW7-kq-B2c" firstAttribute="top" secondItem="lqY-Nc-nww" secondAttribute="bottom" constant="24" type="user" id="Jdi-Tn-ktx"/>
                             <constraint firstItem="hzu-Y1-nJw" firstAttribute="baseline" secondItem="Hv9-On-U2u" secondAttribute="baseline" type="default" id="OIt-Lq-ZJt"/>
-                            <constraint firstItem="tW7-kq-B2c" firstAttribute="top" secondItem="d0i-Th-Utl" secondAttribute="top" type="default" id="PUk-xV-iAA"/>
-                            <constraint firstItem="zki-nm-KQX" firstAttribute="top" secondItem="deR-Q2-EaN" secondAttribute="top" type="default" id="TYZ-V7-d3D"/>
+                            <constraint firstAttribute="trailing" secondItem="Hv9-On-U2u" secondAttribute="trailing" constant="105" id="PSl-bc-KdJ"/>
+                            <constraint firstItem="d0i-Th-Utl" firstAttribute="centerY" secondItem="67y-nq-fZn" secondAttribute="centerY" type="user" id="SzS-cA-Lk4"/>
+                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="top" secondItem="zki-nm-KQX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="TPu-1r-q5o"/>
+                            <constraint firstItem="lqY-Nc-nww" firstAttribute="top" secondItem="3" secondAttribute="top" constant="41" type="user" id="TT6-Xt-7D6"/>
                             <constraint firstItem="zki-nm-KQX" firstAttribute="centerX" secondItem="deR-Q2-EaN" secondAttribute="centerX" type="default" id="afM-gx-2wX"/>
                             <constraint firstItem="67y-nq-fZn" firstAttribute="leading" secondItem="deR-Q2-EaN" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="bLE-Ku-gXM"/>
-                            <constraint firstItem="Hv9-On-U2u" firstAttribute="top" secondItem="zki-nm-KQX" secondAttribute="top" type="default" id="blo-hu-V2B"/>
-                            <constraint firstItem="tW7-kq-B2c" firstAttribute="centerX" secondItem="d0i-Th-Utl" secondAttribute="centerX" type="default" id="cNA-u1-Bl9"/>
+                            <constraint firstItem="d0i-Th-Utl" firstAttribute="centerY" secondItem="deR-Q2-EaN" secondAttribute="centerY" type="user" id="c92-pK-gDP"/>
+                            <constraint firstItem="tW7-kq-B2c" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="37" id="fHp-Iv-1lA"/>
                             <constraint firstItem="Hv9-On-U2u" firstAttribute="baseline" secondItem="zki-nm-KQX" secondAttribute="baseline" type="default" id="gDj-PT-WDv"/>
                             <constraint firstItem="deR-Q2-EaN" firstAttribute="leading" secondItem="d0i-Th-Utl" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="gJ0-JG-UMz"/>
-                            <constraint firstItem="hzu-Y1-nJw" firstAttribute="top" secondItem="Hv9-On-U2u" secondAttribute="top" type="default" id="hgS-yb-wSO"/>
+                            <constraint firstItem="lqY-Nc-nww" firstAttribute="centerX" secondItem="XD1-vK-IqQ" secondAttribute="centerX" type="default" id="kbB-Xs-QSR"/>
                             <constraint firstItem="hzu-Y1-nJw" firstAttribute="centerX" secondItem="h3P-DO-rDk" secondAttribute="centerX" type="default" id="lvD-Zf-IL9"/>
-                            <constraint firstItem="zki-nm-KQX" firstAttribute="top" secondItem="tW7-kq-B2c" secondAttribute="top" type="default" id="oub-fj-3RS"/>
-                            <constraint firstItem="tW7-kq-B2c" firstAttribute="bottom" secondItem="d0i-Th-Utl" secondAttribute="bottom" type="default" id="q27-fJ-CvW"/>
-                            <constraint firstItem="Hv9-On-U2u" firstAttribute="top" secondItem="3" secondAttribute="top" constant="70" id="qa0-Tq-K4C"/>
-                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="178" id="r81-jT-IcY"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="centerY" secondItem="hzu-Y1-nJw" secondAttribute="centerY" type="user" id="m02-5k-ouU"/>
+                            <constraint firstItem="d0i-Th-Utl" firstAttribute="top" secondItem="tW7-kq-B2c" secondAttribute="top" type="user" id="qIH-Wl-klf"/>
+                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="sUI-oC-ebN"/>
                             <constraint firstItem="zki-nm-KQX" firstAttribute="baseline" secondItem="tW7-kq-B2c" secondAttribute="baseline" type="default" id="xrK-WC-Wg5"/>
-                            <constraint firstItem="Hv9-On-U2u" firstAttribute="top" secondItem="67y-nq-fZn" secondAttribute="top" type="default" id="yJE-Yd-13U"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="centerY" secondItem="Hv9-On-U2u" secondAttribute="centerY" type="user" id="zcC-vj-S8A"/>
+                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="top" secondItem="deR-Q2-EaN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zlV-aT-yxR"/>
                         </constraints>
                     </view>
                     <connections>
@@ -101,6 +110,7 @@
     </scenes>
     <resources>
         <image name="PINBox.png" width="61" height="53"/>
+        <image name="logo.png" width="303" height="173"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">

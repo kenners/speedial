@@ -15,18 +15,19 @@
 		306E0A8316867D870026C75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8116867D870026C75B /* InfoPlist.strings */; };
 		306E0A8516867D870026C75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E0A8416867D870026C75B /* main.m */; };
 		306E0A8916867D870026C75B /* NnSpeedialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E0A8816867D870026C75B /* NnSpeedialAppDelegate.m */; };
-		306E0A8B16867D870026C75B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8A16867D870026C75B /* Default.png */; };
-		306E0A8D16867D870026C75B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8C16867D870026C75B /* Default@2x.png */; };
-		306E0A8F16867D870026C75B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A8E16867D870026C75B /* Default-568h@2x.png */; };
 		306E0A9216867D870026C75B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A9016867D870026C75B /* MainStoryboard.storyboard */; };
 		306E0A9516867D870026C75B /* NnSpeedialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E0A9416867D870026C75B /* NnSpeedialViewController.m */; };
 		306E0AA116867E5E0026C75B /* PINBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0A9F16867E5E0026C75B /* PINBox.png */; };
 		306E0AA216867E5E0026C75B /* PINBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E0AA016867E5E0026C75B /* PINBox@2x.png */; };
+		30F871F216874DAD003D586B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F871F116874DAD003D586B /* logo.png */; };
+		30F871F8168766AC003D586B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F871F5168766AC003D586B /* Default-568h@2x.png */; };
+		30F871F9168766AC003D586B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F871F6168766AC003D586B /* Default.png */; };
+		30F871FA168766AC003D586B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F871F7168766AC003D586B /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3017515D1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-114.png"; sourceTree = "<group>"; };
-		3017515F1686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NNUH-speedial-icon-57.png"; sourceTree = "<group>"; };
+		3017515D1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NNUH-speedial-icon-114.png"; path = "NNUH Speedial/NNUH-speedial-icon-114.png"; sourceTree = "<group>"; };
+		3017515F1686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NNUH-speedial-icon-57.png"; path = "NNUH Speedial/NNUH-speedial-icon-57.png"; sourceTree = "<group>"; };
 		306E0A7416867D870026C75B /* NNUH Speedial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NNUH Speedial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		306E0A7816867D870026C75B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		306E0A7A16867D870026C75B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,14 +38,15 @@
 		306E0A8616867D870026C75B /* NNUH Speedial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNUH Speedial-Prefix.pch"; sourceTree = "<group>"; };
 		306E0A8716867D870026C75B /* NnSpeedialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NnSpeedialAppDelegate.h; sourceTree = "<group>"; };
 		306E0A8816867D870026C75B /* NnSpeedialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NnSpeedialAppDelegate.m; sourceTree = "<group>"; };
-		306E0A8A16867D870026C75B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		306E0A8C16867D870026C75B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		306E0A8E16867D870026C75B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		306E0A9116867D870026C75B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		306E0A9316867D870026C75B /* NnSpeedialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NnSpeedialViewController.h; sourceTree = "<group>"; };
 		306E0A9416867D870026C75B /* NnSpeedialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NnSpeedialViewController.m; sourceTree = "<group>"; };
 		306E0A9F16867E5E0026C75B /* PINBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PINBox.png; sourceTree = "<group>"; };
 		306E0AA016867E5E0026C75B /* PINBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PINBox@2x.png"; sourceTree = "<group>"; };
+		30F871F116874DAD003D586B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		30F871F5168766AC003D586B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		30F871F6168766AC003D586B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		30F871F7168766AC003D586B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		306E0A7E16867D870026C75B /* NNUH Speedial */ = {
 			isa = PBXGroup;
 			children = (
+				30F871F116874DAD003D586B /* logo.png */,
 				306E0A8716867D870026C75B /* NnSpeedialAppDelegate.h */,
 				306E0A8816867D870026C75B /* NnSpeedialAppDelegate.m */,
 				306E0A9016867D870026C75B /* MainStoryboard.storyboard */,
@@ -108,13 +111,13 @@
 		306E0A7F16867D870026C75B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30F871F5168766AC003D586B /* Default-568h@2x.png */,
+				30F871F6168766AC003D586B /* Default.png */,
+				30F871F7168766AC003D586B /* Default.png */,
 				306E0A8016867D870026C75B /* NNUH Speedial-Info.plist */,
 				306E0A8116867D870026C75B /* InfoPlist.strings */,
 				306E0A8416867D870026C75B /* main.m */,
 				306E0A8616867D870026C75B /* NNUH Speedial-Prefix.pch */,
-				306E0A8A16867D870026C75B /* Default.png */,
-				306E0A8C16867D870026C75B /* Default@2x.png */,
-				306E0A8E16867D870026C75B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,14 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				306E0A8316867D870026C75B /* InfoPlist.strings in Resources */,
-				306E0A8B16867D870026C75B /* Default.png in Resources */,
-				306E0A8D16867D870026C75B /* Default@2x.png in Resources */,
-				306E0A8F16867D870026C75B /* Default-568h@2x.png in Resources */,
 				306E0A9216867D870026C75B /* MainStoryboard.storyboard in Resources */,
 				306E0AA116867E5E0026C75B /* PINBox.png in Resources */,
 				306E0AA216867E5E0026C75B /* PINBox@2x.png in Resources */,
 				3017515E1686CD4D00AEC8B9 /* NNUH-speedial-icon-114.png in Resources */,
 				301751601686CD6A00AEC8B9 /* NNUH-speedial-icon-57.png in Resources */,
+				30F871F216874DAD003D586B /* logo.png in Resources */,
+				30F871F8168766AC003D586B /* Default-568h@2x.png in Resources */,
+				30F871F9168766AC003D586B /* Default.png in Resources */,
+				30F871FA168766AC003D586B /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
