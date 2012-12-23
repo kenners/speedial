@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Nn Speedial View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="NnSpeedialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="PINBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="67y-nq-fZn"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="PINBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="h3P-DO-rDk"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="PINBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="deR-Q2-EaN"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="PINBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="d0i-Th-Utl"/>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XD1-vK-IqQ">
+                                <accessibility key="accessibilityConfiguration" hint="Type in the extension you wish to dial"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="VRn-bG-FPp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="go"/>
+                                <connections>
+                                    <action selector="updateDigitLabels:" destination="2" eventType="editingChanged" id="0Xf-pC-Kj0"/>
+                                    <outlet property="delegate" destination="2" id="Unj-b8-TCz"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tW7-kq-B2c">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="FA7-y8-vam"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zki-nm-KQX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="azJ-qy-71z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hv9-On-U2u">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4wG-vj-tuV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzu-Y1-nJw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="bRb-dB-WOv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d0i-Th-Utl" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="26" id="1SU-Ba-MfC"/>
+                            <constraint firstItem="h3P-DO-rDk" firstAttribute="leading" secondItem="67y-nq-fZn" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="709-xE-quK"/>
+                            <constraint firstItem="Hv9-On-U2u" firstAttribute="centerX" secondItem="67y-nq-fZn" secondAttribute="centerX" type="default" id="9Ru-qq-dhV"/>
+                            <constraint firstItem="hzu-Y1-nJw" firstAttribute="top" secondItem="h3P-DO-rDk" secondAttribute="top" type="default" id="AFE-cz-FuL"/>
+                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="MDN-kv-wmK"/>
+                            <constraint firstItem="hzu-Y1-nJw" firstAttribute="baseline" secondItem="Hv9-On-U2u" secondAttribute="baseline" type="default" id="OIt-Lq-ZJt"/>
+                            <constraint firstItem="tW7-kq-B2c" firstAttribute="top" secondItem="d0i-Th-Utl" secondAttribute="top" type="default" id="PUk-xV-iAA"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="top" secondItem="deR-Q2-EaN" secondAttribute="top" type="default" id="TYZ-V7-d3D"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="centerX" secondItem="deR-Q2-EaN" secondAttribute="centerX" type="default" id="afM-gx-2wX"/>
+                            <constraint firstItem="67y-nq-fZn" firstAttribute="leading" secondItem="deR-Q2-EaN" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="bLE-Ku-gXM"/>
+                            <constraint firstItem="Hv9-On-U2u" firstAttribute="top" secondItem="zki-nm-KQX" secondAttribute="top" type="default" id="blo-hu-V2B"/>
+                            <constraint firstItem="tW7-kq-B2c" firstAttribute="centerX" secondItem="d0i-Th-Utl" secondAttribute="centerX" type="default" id="cNA-u1-Bl9"/>
+                            <constraint firstItem="Hv9-On-U2u" firstAttribute="baseline" secondItem="zki-nm-KQX" secondAttribute="baseline" type="default" id="gDj-PT-WDv"/>
+                            <constraint firstItem="deR-Q2-EaN" firstAttribute="leading" secondItem="d0i-Th-Utl" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="gJ0-JG-UMz"/>
+                            <constraint firstItem="hzu-Y1-nJw" firstAttribute="top" secondItem="Hv9-On-U2u" secondAttribute="top" type="default" id="hgS-yb-wSO"/>
+                            <constraint firstItem="hzu-Y1-nJw" firstAttribute="centerX" secondItem="h3P-DO-rDk" secondAttribute="centerX" type="default" id="lvD-Zf-IL9"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="top" secondItem="tW7-kq-B2c" secondAttribute="top" type="default" id="oub-fj-3RS"/>
+                            <constraint firstItem="tW7-kq-B2c" firstAttribute="bottom" secondItem="d0i-Th-Utl" secondAttribute="bottom" type="default" id="q27-fJ-CvW"/>
+                            <constraint firstItem="Hv9-On-U2u" firstAttribute="top" secondItem="3" secondAttribute="top" constant="70" id="qa0-Tq-K4C"/>
+                            <constraint firstItem="XD1-vK-IqQ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="178" id="r81-jT-IcY"/>
+                            <constraint firstItem="zki-nm-KQX" firstAttribute="baseline" secondItem="tW7-kq-B2c" secondAttribute="baseline" type="default" id="xrK-WC-Wg5"/>
+                            <constraint firstItem="Hv9-On-U2u" firstAttribute="top" secondItem="67y-nq-fZn" secondAttribute="top" type="default" id="yJE-Yd-13U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="phoneNumberLabel1" destination="tW7-kq-B2c" id="QiY-Gb-sOM"/>
+                        <outlet property="phoneNumberLabel2" destination="zki-nm-KQX" id="92r-kq-EUm"/>
+                        <outlet property="phoneNumberLabel3" destination="Hv9-On-U2u" id="vXc-SF-f1D"/>
+                        <outlet property="phoneNumberLabel4" destination="hzu-Y1-nJw" id="bTv-s1-gd3"/>
+                        <outlet property="textField" destination="XD1-vK-IqQ" id="SDb-PG-uft"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PINBox.png" width="61" height="53"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="NnSpeedialViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NnSpeedialViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="updateDigitLabels:"/>
+                <relationship kind="outlet" name="phoneNumberLabel1" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="phoneNumberLabel2" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="phoneNumberLabel3" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="phoneNumberLabel4" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
