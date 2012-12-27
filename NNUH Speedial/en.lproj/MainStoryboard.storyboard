@@ -112,22 +112,6 @@
         <image name="PINBox.png" width="61" height="53"/>
         <image name="logo.png" width="303" height="173"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="NnSpeedialViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NnSpeedialViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="updateDigitLabels:"/>
-                <relationship kind="outlet" name="phoneNumberLabel1" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="phoneNumberLabel2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="phoneNumberLabel3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="phoneNumberLabel4" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
