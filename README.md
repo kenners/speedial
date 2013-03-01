@@ -3,6 +3,8 @@ speedial
 
 A simple iOS app for dialling NNUH extension numbers from your iPhone. ProTip: Don't try 2222.
 
+Compiles for iOS 6.1
+
 Open sourced as rejected from the App Store for being too simple.
 
 License
